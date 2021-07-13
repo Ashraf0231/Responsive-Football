@@ -188,23 +188,56 @@ body{
 .more-info{
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
 
 }
 
 .match-schedule{
-    width:50%;
+    width:400px;
     border: 1px solid black;
     height: 600px;
     margin-right: 20px;
     background-color: white;
     border-radius: 10px;
+    
 
+}
+.match-schedule-info{
+   
+    padding-left: 15px;
+    
+}
+
+.match-schedule-info p{
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.match-schedule-flexible-container{
+display: flex;
+align-items: center;
+justify-content: left;
+
+
+}
+
+.fa-clock{
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .match-schedule h1{
 
     text-align: center;
+ 
+}
+.match-schedule h2,h3{
+
+
+    margin-top: 0;
+    margin-bottom: 0;
+ 
 }
 
 .Match-schedule-box-shadow{
@@ -215,8 +248,10 @@ body{
 
 
 
+
+
 .transfer-market{
-    width:50%;
+    width: 700px;
     border: 1px solid black;
     height: 600px;
     margin-Left: 20px;
