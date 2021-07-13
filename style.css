@@ -117,7 +117,7 @@ body{
 /* Highlights Section */
 .highlight-section-container{
 
-    padding-top: 135px;
+    padding-top: 100px;
 }
 
 .highlight-article-container{
@@ -148,8 +148,30 @@ body{
 
 #highlight-img{
     width: 567px;
-height: 427px;
+   height: 427px;
 }
+
+/* Special Clips Container */
+.special-clips-container{
+
+    padding-left: 400px;
+}
+
+.section-title{
+    padding-left: 380px;
+    font-size: 35px;
+}
+
+.special-clips{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+
+
+
+
 
 
 
