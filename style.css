@@ -6,6 +6,11 @@
     background-color: #2D25A0;
 }
 
+.article-container{
+    display: flex;
+   
+}
+
 .top-section-text{
 
     font-weight: bold;
@@ -14,4 +19,10 @@
     padding-top: 100px;
     padding-left: 156px;
     padding-bottom: 240px;
+}
+
+.top-section-image{
+
+    width:40%;
+  
 }
