@@ -155,13 +155,13 @@ body{
 /* Special Clips Container */
 .special-clips-container{
 
-    padding-left: 450px;
+    padding-left: 400px;
     width:60%;
 
 }
 
 .section-title{
-    padding-left: 380px;
+    padding-left: 350px;
     font-size: 35px;
 }
 
@@ -173,7 +173,7 @@ body{
     grid-row-gap: 27px;
 }
 .special-clip{
-     padding-right: 0;
+     
 }
 
 
