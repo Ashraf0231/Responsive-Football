@@ -118,6 +118,7 @@ body{
 .highlight-section-container{
 
     padding-top: 100px;
+    
 }
 
 .highlight-article-container{
@@ -154,7 +155,9 @@ body{
 /* Special Clips Container */
 .special-clips-container{
 
-    padding-left: 400px;
+    padding-left: 450px;
+    width:60%;
+
 }
 
 .section-title{
@@ -166,10 +169,12 @@ body{
 
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 30px;
+    grid-column-gap: 40px;
+    grid-row-gap: 27px;
 }
-
-
+.special-clip{
+     padding-right: 0;
+}
 
 
 
