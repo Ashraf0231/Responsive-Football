@@ -599,7 +599,7 @@ height: 110px;
      .top-section-container{
 
         width:100%;
-        padding-left: 0;
+        padding-left: 4%;
         padding-right: 0;
         background-color: gray;
     }
@@ -705,7 +705,24 @@ height: 110px;
  /* ENd of highlight Section */
 
 
+/* special Section */
 
+.special-section{
+          
+    padding-top: 100px;
+    width:100%;
+
+}
+.special-clips{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+ /* special Section */
 
 }
 
