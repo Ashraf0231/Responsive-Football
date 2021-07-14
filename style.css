@@ -367,9 +367,7 @@ height: 110px;
     width:100%;
     padding-left: 0px;
     
-
 }
-
 .Grid-Card{
 
     display: grid;
@@ -381,10 +379,48 @@ height: 110px;
 
      /* End Mid Section */
       /* highlight Section */
-    .highlight-section-container{
+      .highlight-section-container{
 
-        display: none;
+        padding-top: 100px;
+        width:100%;
         
+    }
+    
+    .highlight-article-container{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    
+    .highlight-section-text{
+    
+        font-weight: bold;
+        font-size: 48px;
+        color: #0A0826;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .highlight-section-text p{
+    
+        font-size: 16px;
+        color: #6C6C6C;
+        font-weight: normal;
+    }
+    
+    .highlight-section-image{
+    
+        padding-left: 5px;
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    
+    #highlight-img{
+        width: 340px;
+       height: 220px;
     }
 
      /* highlight Section */
