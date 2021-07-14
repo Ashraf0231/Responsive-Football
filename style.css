@@ -353,7 +353,7 @@ justify-content: left;
 .footer-container{
 
     align-items: center;
-    padding-top: 100px:
+    padding-top: 100px;
 
 }
 .footer-image{
@@ -470,9 +470,7 @@ CSS Portion for Second/MID Section
     width:100%;
     padding-left: 0;
     padding-right: 0;
-    
-    
-    
+  
 }
 .Grid-Card{
 
@@ -729,8 +727,9 @@ CSS Portion for Responsive Top Section
     width: 400px;
     height: 300px;
    }
-
-   /* End TOp Section */
+/* ...................................
+ ENd CSS Portion for top Section  
+.....................................*/
 
 /* ...................................
 CSS Portion for Second/MID Section  
@@ -753,10 +752,12 @@ CSS Portion for Second/MID Section
     grid-row-gap: 27px;
     justify-content: center;
 }
-   /* End Mid Section */
+/* ...................................
+ ENd CSS Portion for More MID Section  
+.....................................*/
 
 /* ...................................
-CSS Portion for Second/MID Section  
+CSS Portion for highlights Section  
 .....................................*/
 .highlight-section-container{
 
@@ -803,12 +804,13 @@ CSS Portion for Second/MID Section
     width: 480px;
    height: 350px;
 }
-
- /* ENd of highlight Section */
+/* ...................................
+ ENd CSS Portion for Highlight's Section  
+.....................................*/
 
 
 /* ...................................
-CSS Portion for Second/MID Section  
+CSS Portion for Special clips Section  
 .....................................*/
 
 .special-section{
@@ -825,8 +827,9 @@ CSS Portion for Second/MID Section
     align-items: center;
 }
 
- /* special Section */
-
+/* ...................................
+ ENd CSS Portion for More Special Clips Section  
+.....................................*/
 
 /* ...................................
 CSS Portion for Second/MID Section  
