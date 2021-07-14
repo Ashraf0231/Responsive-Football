@@ -280,7 +280,7 @@ justify-content: left;
 .blogs{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center ;
     padding: 2%;
 
