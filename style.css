@@ -326,6 +326,7 @@ height: 110px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
         
        
     }
@@ -359,34 +360,307 @@ height: 110px;
 
    /* End TOp Section */
 
- 
+ /* Mid Section */
    .mid-section-container{
 
     display: none;
     }
 
+
+     /* End Mid Section */
+      /* highlight Section */
     .highlight-section-container{
 
         display: none;
         
     }
+
+     /* highlight Section */
+
+      /* special Section */
     .special-clips-container{
 
         
         display: none;
     
     }
+     /* special Section */
+
+      /* more Section */
     .more-info-container{
         display: none;
     }
     
+     /* more Section */
+      /* footer Section */
     .footer-container{
 
         display: none;
         
     
     }
+     /* footer Section */
 }
 
+
+
+
+@media only screen and (min-width:689px) and (max-width:992px)  {
+
+
+    /* TOp Section */
+    .top-section-container{
+
+        width:100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: gray;
+     
+    }
+
+    .article-container{ 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+       
+    }
+
+    .top-section-text{
+
+        font-weight: bold;
+        font-size: 40px;
+        color: #FFFFFF;
+        padding-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 240px;
+       
+    }
+
+    
+.top-section-image{
+   
+    
+    padding-top: 150px;
+    padding-right: 0;
+  
+  
+}
+
+#img{
+    width: 100%;
+    height: 475px;
+   }
+
+   /* End TOp Section */
+
+ /* Mid Section */
+   .mid-section-container{
+
+    display: none;
+    }
+
+
+     /* End Mid Section */
+      /* highlight Section */
+    .highlight-section-container{
+
+        display: none;
+        
+    }
+
+     /* highlight Section */
+
+      /* special Section */
+    .special-clips-container{
+
+        
+        display: none;
+    
+    }
+     /* special Section */
+
+      /* more Section */
+    .more-info-container{
+        display: none;
+    }
+    
+     /* more Section */
+      /* footer Section */
+    .footer-container{
+
+        display: none;
+        
+    
+    }
+     /* footer Section */
+
+}
+
+
+@media only screen and (min-width:993px) and (max-width:1312px){
+ /* TOp Section */
+ .top-section-container{
+
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #2D25A0;
+ 
+}
+
+.article-container{ 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.top-section-text{
+
+    font-weight: Normal;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 240px;
+   
+}
+
+
+.top-section-image{
+
+
+padding-top: 150px;
+padding-right: 20px;
+
+
+}
+
+#img{
+width: 100%;
+height: 475px;
+}
+
+/* End TOp Section */
+
+/* Mid Section */
+.mid-section-container{
+
+    padding-top: 60px;
+    width:100%;
+    padding-left: 60px;
+    
+
+}
+
+.Grid-Card{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+
+ /* End Mid Section */
+  /* highlight Section */
+  .highlight-section-container{
+
+    padding-top: 100px;
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.highlight-article-container{
+
+    display: flex;
+    justify-content: space-between; 
+}
+
+.highlight-section-text{
+
+    font-weight: Normal;
+    font-size: 40px;
+    color: #0A0826;
+    padding-left: 100px;
+}
+
+.highlight-section-text p{
+
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: normal;
+}
+
+.highlight-section-image{
+
+    padding-left: 69px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+#highlight-img{
+    width: 567px;
+   height: 427px;
+}
+
+ /* highlight Section */
+
+  /* special Section */
+  .special-clips-container{
+
+    padding-left: 100px;
+    width:100%;
+
+}
+
+
+
+.special-clips{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 27px;
+}
+
+ /* special Section */
+
+  /* more Section */
+  .more-info-container{
+
+    padding-left: 100px;
+    width:100%;
+    padding-top: 100px;
+    
+    
+}
+
+.more-info{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+ /* more Section */
+  /* footer Section */
+  .footer-container{
+
+    align-items: center;
+    padding-top: 100px;
+    
+
+}
+ /* footer Section */
+    
+
+
+}
 
 
