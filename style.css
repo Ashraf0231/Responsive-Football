@@ -1,4 +1,6 @@
-/* Common Section */
+/*............................. 
+        Common Section 
+...............................*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -8,7 +10,9 @@ body{
 }
 
 
-/* Top Section CSS */
+/* ......................
+CSS Portion for Top Section  
+...........................*/
 
 .top-section-container{
 
@@ -49,32 +53,32 @@ body{
 }
 
 .top-section-image{
-   
-    
     padding-top: 5%;
     padding-left: 2%;
     padding-right: 10%;
-   
-  
 }
 
 .top-section-image:hover{
     transform: rotatey(360deg);
     transition: transform 2s ease-in-out;
-  
 }
 
 #img{
  width: 550px;
  height: 475px;
-
 }
 
+/* ...............................
+End of CSS Portion for Top Section ^^^^ 
+......................................*/
 
+/* --------------------------------------------------- */
 
-/* Mid Section CSS */
-
-
+/* ......................
+CSS Portion for 2nd Section/ MID Section 
+where picture and wikipidea details are 
+provided with player image 
+...........................*/
 
 .mid-section-container{
 
@@ -121,8 +125,20 @@ body{
     text-align: justify;
 }
 
+/* ......................
+End of CSS Portion for2nd Section
+/ MID Section  
+...........................*/
 
-/* Highlights Section */
+
+
+/* --------------------------------------------------- */
+
+
+/*.................................
+ CSS Portion for Highlight's Section
+   ....................................*/
+
 .highlight-section-container{
 
     padding-top: 5%;
@@ -160,33 +176,51 @@ body{
    height: 427px;
 }
 
-/* Special Clips Container */
-.special-clips-container{
 
+/*.................................
+  End CSS Portion for Highlight's Section
+   ....................................*/
+
+
+
+/* --------------------------------------------------- */
+
+
+
+
+/*.................................
+ CSS Portion for Special Clips (Bonus part) 
+ Three video clips of Copa America 2020
+....................................*/
+
+
+
+.special-clips-container{
     display: flex;
     justify-content: center;
- 
-   
-
 }
 
 .section-title{
-    
     font-size: 35px;
     text-align: center;
-
 }
 
 .special-clips{
-
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 40px;
     grid-row-gap: 27px;
 }
 
+/*.................................
+ End of CSS Portion for Special Clips  
+...................................*/
 
 
+/*.................................
+ CSS Portion for More Information (Bonus part) 
+ Three video clips of Copa America 2020
+....................................*/
 
 .more-info-container{
     width:100%;
@@ -196,12 +230,11 @@ body{
 .more-info{
     display: flex;
     justify-content: center;
-
 }
 
 .match-schedule{
     width:400px;
-    /* border: 1px solid black; */
+    
     height: 600px;
     margin-right: 20px;
     background-color: transparent;
@@ -210,22 +243,18 @@ body{
 
 }
 .match-schedule-info{
-   
-    padding-left: 15px;
-    
+    padding-left: 15px; 
 }
 
 .match-schedule-info p{
-
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .match-schedule-flexible-container{
 display: flex;
 align-items: center;
 justify-content: left;
-
-
 }
 
 .fa-clock{
@@ -257,7 +286,7 @@ justify-content: left;
 
 .transfer-market{
     width: 700px;
-    /* border: 1px solid black; */
+
     height: 600px;
     margin-Left: 20px;
      background-color: transparent;
@@ -308,6 +337,12 @@ justify-content: left;
     text-align: left;
 
 }
+
+/*.................................
+  END of CSS Portion for More Information 
+....................................*/
+
+/* ..................................... */
 
 
 
