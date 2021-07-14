@@ -102,6 +102,8 @@ body{
 }
 
 
+
+
 #Card-img{
 
     width: 330px;
@@ -115,7 +117,9 @@ body{
     padding-top:10px;
     margin:0 auto;
 }
-
+.Card-blog{
+    text-align: justify;
+}
 
 
 /* Highlights Section */
@@ -355,7 +359,7 @@ height: 110px;
         width:100%;
         padding-left: 0;
         padding-right: 0;
-        background-color: gray;
+        background-color: #2D25A0;
     }
 
     .article-container{ 
@@ -386,7 +390,7 @@ height: 110px;
    
     
     padding-top: 0px;
-    padding-right: 0;
+    padding-right: 0px;
   
   
 }
@@ -527,7 +531,7 @@ justify-content: Center;
 
 .transfer-market{
     width: 100%;
-    height: 900px;
+    height: 700px;
     background-color: transparent;
     border-radius: 10px;
     
@@ -562,10 +566,7 @@ justify-content: Center;
 
 }
 #transfer-p{
-    font-weight: Normal;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: Center;
+    display: none;
 
 }
 /*  ENd More Informatioin Section */
@@ -602,7 +603,7 @@ height: 110px;
         width:100%;
         padding-left: 4%;
         padding-right: 0;
-        background-color: gray;
+        background-color: #2D25A0;
     }
 
     .article-container{ 
@@ -766,7 +767,7 @@ justify-content: Center;
 
 .transfer-market{
     width: 100%;
-    height: 900px;
+    height: 700px;
     background-color: transparent;
     border-radius: 10px;
     
@@ -801,10 +802,7 @@ justify-content: Center;
 
 }
 #transfer-p{
-    font-weight: Normal;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: Center;
+    display: none;
 
 }
 /*  ENd More Informatioin Section */
