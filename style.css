@@ -466,6 +466,26 @@ height: 110px;
 
  /* ENd of highlight Section */
 
+
+ /* special Section */
+
+ .special-section{
+          
+    padding-top: 100px;
+    width:100%;
+
+}
+.special-clips{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+ /* special Section */
+
 /* More Informatioin Section */
 .more-info-container{
     width:100%;
@@ -572,4 +592,9 @@ height: 110px;
 /* End of Footer Section*/
 }
 
+
+@media only screen and (min-width:689px) and (max-width:1312px){
+
+    
+}
 
