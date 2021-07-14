@@ -361,10 +361,22 @@ height: 110px;
    /* End TOp Section */
 
  /* Mid Section */
-   .mid-section-container{
+ .mid-section-container{
 
-    display: none;
-    }
+    padding-top: 750px;
+    width:100%;
+    padding-left: 0px;
+    
+
+}
+
+.Grid-Card{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
 
 
      /* End Mid Section */
