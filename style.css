@@ -17,22 +17,26 @@ body{
     background-color: #2D25A0;
     
     
+    
 }
 
  .article-container{ 
     display: flex;
-    justify-content: space-between; 
+    justify-content: center;
    
 }
 
 .top-section-text{
 
+    
     font-weight: bold;
     font-size: 50px;
     color: #FFFFFF;
-    padding-top: 100px;
-    padding-left: 350px;
+    padding-top: 0;
+    padding-left: 15%;
     padding-bottom: 240px;
+    margin-right: 10%;
+    margin-top: 2%;
    
 }
 
@@ -49,8 +53,9 @@ body{
 .top-section-image{
    
     
-    padding-top: 100px;
-    padding-right: 270px;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 10%;
    
   
 }
@@ -71,13 +76,13 @@ body{
 
 /* Mid Section CSS */
 
+
+
 .mid-section-container{
 
-    padding-top: 60px;
-    width:60%;
-    padding-left: 400px;
-    
-
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
 }
 
 .Grid-Card{
@@ -86,6 +91,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
+    
 }
 
     
@@ -117,7 +123,7 @@ body{
 /* Highlights Section */
 .highlight-section-container{
 
-    padding-top: 100px;
+    padding-top: 5%;
     
 }
 
@@ -132,7 +138,7 @@ body{
     font-weight: bold;
     font-size: 48px;
     color: #0A0826;
-    padding-left: 100px;
+    padding-left:.5%;
 }
 
 .highlight-section-text p{
@@ -144,7 +150,7 @@ body{
 
 .highlight-section-image{
 
-    padding-left: 69px;
+    padding-left: 3%;
 }
 
 #highlight-img{
@@ -155,14 +161,18 @@ body{
 /* Special Clips Container */
 .special-clips-container{
 
-    padding-left: 400px;
-    width:60%;
+    display: flex;
+    justify-content: center;
+ 
+   
 
 }
 
 .section-title{
-    padding-left: 350px;
+    
     font-size: 35px;
+    text-align: center;
+
 }
 
 .special-clips{
@@ -178,9 +188,9 @@ body{
 
 .more-info-container{
 
-    padding-left: 410px;
-    width:60%;
-    padding-top: 100px;
+    
+    width:100%;
+    padding-top: 2%;
     
     
 }
@@ -188,7 +198,7 @@ body{
 .more-info{
 
     display: flex;
-    justify-content: left;
+    justify-content: center;
 
 }
 
@@ -248,8 +258,6 @@ justify-content: left;
 
 
 
-
-
 .transfer-market{
     width: 700px;
     border: 1px solid black;
@@ -268,6 +276,31 @@ justify-content: left;
 
     box-shadow: 10px 10px 50px rgb(66, 64, 64);
     
+}
+.blogs{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    padding: 2%;
+
+}
+
+#transfer-img {
+
+    width:250px;
+    height: 130px;
+    padding-right: 20%;
+    border-radius: 10px;
+}
+#transfer-a{
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+    text-decoration: none;
+    text-align: left;
+
 }
 
 

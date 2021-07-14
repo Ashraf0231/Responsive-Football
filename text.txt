@@ -1,55 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Football</title>
-
-    <!-- Insert Fav icon -->
-    <link rel="shortcut icon" href="images/tinnyfootball.jpg" type="image/x-icon">
-
-    <!-- css style insert -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- font awesome kit -->
-    <script src="https://kit.fontawesome.com/6c880d16d0.js" crossorigin="anonymous"></script>
-
-    <!-- google font insert -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <main>
-
-        <!-- Top Section Banner -->
-        <section class="top-section-container">
-
-            <article class="article-container">
-
-                <div class="top-section-text">
-                    <h1>
-                        Conmebol <br> Copa America <br> 2021
-                    </h1>
-                    <a class="Button-Link" target="blank" href="#">Watch Live</a>
-                </div>
-
-                <banner class="top-section-image">
-                    <img id="img" src="images/banner.png" alt="">
-                </banner>
-
-            </article>
-
-        </section>
-        <!--End of Top Section Banner -->
-        <hr>
-
-        <!-- Mid Section Player Blog  -->
+ <!-- Mid Section Player Blog  -->
         <Section class="mid-section-container  ">
             <div class="Grid-Card">
                 <!-- Player info -->
@@ -235,62 +184,38 @@
         <!-- ENd of Mid Section Player Blog  -->
 
 
+          <!-- Special Moments Section -->
+        <section class="special-clips-container">
 
-        <!-- Highlight Section -->
-        <section class="highlight-section-container">
+            <h2 class="section-title">Few More Special Moments</h2>
 
-            <article class="highlight-article-container">
-
-                <div class="highlight-section-text">
-                    <h1>
-                        All Highlights <br> Copa America 2021
-                    </h1>
-                    <P>anfbianfobnaof jaofibnoafibnaofj kjnaofiba oiajfobijafb p0a9ijfpbi9aj</P>
-                    <a class="Button-Link" target="blank" href="#">Watch Now</a>
+            <div class="special-clips">
+                <div class="special-clip">
+                    <iframe width="355" height="220" src="https://www.youtube.com/embed/hlk470DAdWk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
 
-                <banner class="highlight-section-image">
-                    <img id="highlight-img" src="images/match.png" alt="">
-                </banner>
-
-            </article>
-        </section>
-        <!-- End of Highlight Section -->
-
-
-        <!-- Special Moments Section -->
-        <section>
-
-            <h2 class="section-title">Special Moments</h2>
-
-            <div class="special-clips-container">
-                <div class="special-clips">
-                    <div class="special-clip">
-                        <iframe width="355" height="220" src="https://www.youtube.com/embed/hlk470DAdWk"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-
-                    <div id="special-clip">
-                        <iframe width="355" height="220" src="https://www.youtube.com/embed/CVDxyyfF74g?start=7"
-                            title="YouTube video player" frameborder="0" allow="accelerometer; 
+                <div id="special-clip">
+                    <iframe width="355" height="220" src="https://www.youtube.com/embed/CVDxyyfF74g?start=7"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; 
                     autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-
-
-
-                    <div id="special-clip">
-                        <iframe width="355" height="220" src="https://www.youtube.com/embed/j1itM8Wohfo?start=7"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-
-
+                        allowfullscreen></iframe>
                 </div>
+
+
+
+                <div id="special-clip">
+                    <iframe width="355" height="220" src="https://www.youtube.com/embed/j1itM8Wohfo?start=7"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+
             </div>
+
         </section>
 
         <!-- End of Special Moments Section -->
@@ -299,7 +224,6 @@
 
         <section class="more-info-container">
 
-            <h2 class="section-title">Fixtures & News</h2>
             <div class="more-info ">
                 <div class="match-schedule Match-schedule-box-shadow">
                     <h1> Upcoming Football Matches</h1>
@@ -370,19 +294,10 @@
 
                 <div class="transfer-market transfer-market-box-shadow">
                     <h1> Transfer Market</h1>
+                    <p>Qpoibpakdfnb iaopnbafb iafnbafb
+                        iafnbafbianfba
 
-                    <article class="blogs">
-                        <div>
-                            <img id="transfer-img" src="images/mexxi.jpg" alt="">
-                        </div>
-                        <div>
-                            <a href="https://www.barcablaugranes.com/2021/7/13/22575023/fc-barcelona-news-13-july-2021-laporta-talks-messi-contract-new-barca-b-signings"
-                                id="transfer-a">
-                                FC Barcelona News: 13 July 2021.</a>
-
-                        </div>
-                    </article>
-
+                    </p>
 
                 </div>
 
@@ -394,28 +309,3 @@
         <!-- End of Information About Football And Others -->
 
 
-
-
-        <footer class="footer-container">
-
-            <div class="footer-image">
-
-                <img id="foot-image" src="images/Logo2.png" alt="">
-            </div>
-            <div class="social-media-logo">
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-linkedin"></i>
-            </div>
-            <div class="copyright">
-                <h4>Copyright <i class="far fa-copyright"></i> 2021 Football</h4>
-            </div>
-
-        </footer>
-
-    </main>
-
-</body>
-
-</html>
