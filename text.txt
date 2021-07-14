@@ -1,311 +1,543 @@
- <!-- Mid Section Player Blog  -->
-        <Section class="mid-section-container  ">
-            <div class="Grid-Card">
-                <!-- Player info -->
 
-                <div class="Card ">
+        <!-- Special Moments Section -->
+        <section class="special-section">
+            <h2 class="section-title">Special Moments</h2>
 
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-1.png" alt="">
+            <div class="special-clips-container">
 
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Neymar Jr</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-2.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Lionel Messi</h2>
-                        <p>habijabi habijabi habijabi</p>
+                <div class="special-clips">
+                    <div class="special-clip">
+                        <iframe width="355" height="220" src="https://www.youtube.com/embed/hlk470DAdWk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
 
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-3.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Christiano Ronaldo</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-                <!-- Player info -->
-
-                <div class="Card ">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-4.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Dybala</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-5.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Mesut Ozil</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-6.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Icardi</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-                <!-- Player info -->
-
-                <div class="Card ">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-7.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>De Maria</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-8.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Kylian Mbappe</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-9.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Mohammad Salah</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-                <!-- Player info -->
-
-                <div class="Card ">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-10.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Harry Kane</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-11.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Kevin De Bryune</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-
-                <!-- Player info -->
-
-                <div class="Card">
-
-                    <div Class="Card-Image">
-                        <img id="Card-img" src="images/players/player-12.png" alt="">
-
-                    </div>
-                    <div class="Card-blog">
-                        <h2>Phillip Coutinho</h2>
-                        <p>habijabi habijabi habijabi</p>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </Section>
-        <!-- ENd of Mid Section Player Blog  -->
-
-
-          <!-- Special Moments Section -->
-        <section class="special-clips-container">
-
-            <h2 class="section-title">Few More Special Moments</h2>
-
-            <div class="special-clips">
-                <div class="special-clip">
-                    <iframe width="355" height="220" src="https://www.youtube.com/embed/hlk470DAdWk"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div id="special-clip">
-                    <iframe width="355" height="220" src="https://www.youtube.com/embed/CVDxyyfF74g?start=7"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; 
+                    <div id="special-clip">
+                        <iframe width="355" height="220" src="https://www.youtube.com/embed/CVDxyyfF74g?start=7"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; 
                     autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                            allowfullscreen></iframe>
+                    </div>
+
+
+
+                    <div id="special-clip">
+                        <iframe width="355" height="220" src="https://www.youtube.com/embed/j1itM8Wohfo?start=7"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+
                 </div>
-
-
-
-                <div id="special-clip">
-                    <iframe width="355" height="220" src="https://www.youtube.com/embed/j1itM8Wohfo?start=7"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-
-
             </div>
-
         </section>
 
         <!-- End of Special Moments Section -->
 
-        <!-- Information About Football And Others -->
-
-        <section class="more-info-container">
-
-            <div class="more-info ">
-                <div class="match-schedule Match-schedule-box-shadow">
-                    <h1> Upcoming Football Matches</h1>
-                    <hr>
-                    <div class="match-schedule-info">
-                        <h2>England vs Italy</h2>
-                        <p>Euro 2020 Final Match</p>
-
-                        <div Class="match-schedule-flexible-container">
-                            <div>
-                                <h3>Date: 11 July, 2021</h3>
-                            </div>
-                            <div>
-                                <i class="far fa-clock"></i>
-                                5.30 PM
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr>
-                    <div class="match-schedule-info">
-                        <h2>England vs Italy</h2>
-                        <p>Euro 2020 Final Match</p>
-
-                        <div Class="match-schedule-flexible-container">
-                            <div>
-                                <h3>Date: 11 July, 2021</h3>
-                            </div>
-                            <div>
-                                <i class="far fa-clock"></i>
-                                5.30 PM
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr>
-                    <div class="match-schedule-info">
-                        <h2>England vs Italy</h2>
-                        <p>Euro 2020 Final Match</p>
-
-                        <div Class="match-schedule-flexible-container">
-                            <div>
-                                <h3>Date: 11 July, 2021</h3>
-                            </div>
-                            <div>
-                                <i class="far fa-clock"></i>
-                                5.30 PM
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="match-schedule-info">
-                        <h2>England vs Italy</h2>
-                        <p>Euro 2020 Final Match</p>
-
-                        <div Class="match-schedule-flexible-container">
-                            <div>
-                                <h3>Date: 11 July, 2021</h3>
-                            </div>
-                            <div>
-                                <i class="far fa-clock"></i>
-                                5.30 PM
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="transfer-market transfer-market-box-shadow">
-                    <h1> Transfer Market</h1>
-                    <p>Qpoibpakdfnb iaopnbafb iafnbafb
-                        iafnbafbianfba
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
 
 
-        <!-- End of Information About Football And Others -->
 
 
+
+
+        
+
+/* Mid Section */
+ .mid-section-container{
+
+    padding-top: 750px;
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+    
+    
+    
+}
+.Grid-Card{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    justify-content: center;
+}
+
+
+     /* End Mid Section */
+      /* highlight Section */
+      .highlight-section-container{
+
+        padding-top: 100px;
+        width:100%;
+
+    }
+    
+    .highlight-article-container{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    
+    .highlight-section-text{
+    
+        font-weight: bold;
+        font-size: 48px;
+        color: #0A0826;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .highlight-section-text p{
+    
+        font-size: 16px;
+        color: #6C6C6C;
+        font-weight: normal;
+    }
+    
+    .highlight-section-image{
+    
+        padding-left: 5px;
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    
+    #highlight-img{
+        width: 340px;
+       height: 220px;
+    }
+
+     /* highlight Section */
+
+
+
+      /* special Section */
+
+      .special-section{
+          
+        padding-top: 100px;
+        width:100%;
+
+    }
+    .special-clips{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+ 
+    
+     /* special Section */
+
+      /* more Section */
+  
+
+
+      .more-info-container{
+
+    
+        width:100%;
+        padding-top: 2%;
+        
+        
+    }
+    
+    .more-info{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .match-schedule{
+        width:400px;
+        /* border: 1px solid black; */
+        height: 600px;
+        margin-right: 20px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+
+
+
+     /* more Section */
+      /* footer Section */
+      .more-info-container{
+
+    
+        width:100%;
+        padding-top: 2%; 
+        
+    }
+    
+    .more-info{
+    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    
+    .match-schedule{
+        width:90%;
+        height: 600px;
+        background-color: transparent;
+        border-radius: 10px;
+        align-content: center;
+        align-items:center;
+        justify-items: center;
+                
+    }
+   
+    
+    .match-schedule-info p{
+    
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+    .match-schedule-flexible-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    }
+    
+
+     /* footer Section */
+}
+
+
+
+
+@media only screen and (min-width:689px) and (max-width:992px)  {
+
+
+    /* TOp Section */
+    .top-section-container{
+
+        width:100%;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: gray;
+     
+    }
+
+    .article-container{ 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+       
+    }
+
+    .top-section-text{
+
+        font-weight: bold;
+        font-size: 40px;
+        color: #FFFFFF;
+        padding-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 240px;
+       
+    }
+
+    
+.top-section-image{
+   
+    
+    padding-top: 150px;
+    padding-right: 0;
+  
+  
+}
+
+#img{
+    width: 100%;
+    height: 475px;
+   }
+
+   /* End TOp Section */
+
+ /* Mid Section */
+ .mid-section-container{
+
+    padding-top: 750px;
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+    
+    
+    
+}
+.Grid-Card{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    justify-content: center;
+}
+/* End Mid Section */
+
+
+      /* highlight Section */
+      .highlight-section-container{
+
+        padding-top: 100px;
+        width:100%;
+
+    }
+    
+    .highlight-article-container{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    
+    .highlight-section-text{
+    
+        font-weight: bold;
+        font-size: 48px;
+        color: #0A0826;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .highlight-section-text p{
+    
+        font-size: 16px;
+        color: #6C6C6C;
+        font-weight: normal;
+    }
+    
+    .highlight-section-image{
+    
+        padding-left: 5px;
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    
+    #highlight-img{
+        width: 500px;
+       height: 380px;
+    }
+
+     /* highlight Section */
+
+      /* special Section */
+  
+      
+      .special-section{
+          
+        padding-top: 100px;
+        width:100%;
+
+    }
+    .special-clips{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+     /* special Section */
+
+      /* more Section */
+    .more-info-container{
+        display: none;
+    }
+    
+     /* more Section */
+      /* footer Section */
+    .footer-container{
+
+        display: none;
+        
+    
+    }
+     /* footer Section */
+
+}
+
+
+@media only screen and (min-width:993px) and (max-width:1312px){
+ /* TOp Section */
+ .top-section-container{
+
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #2D25A0;
+ 
+}
+
+.article-container{ 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.top-section-text{
+
+    font-weight: Normal;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 240px;
+   
+}
+
+
+.top-section-image{
+
+
+padding-top: 150px;
+padding-right: 20px;
+
+
+}
+
+#img{
+width: 100%;
+height: 475px;
+}
+
+/* End TOp Section */
+
+/* Mid Section */
+.mid-section-container{
+
+   
+    padding-top: 2%;
+    padding-left: 1%;
+    width:100%;
+}
+
+.Grid-Card{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+
+ /* End Mid Section */
+  /* highlight Section */
+  .highlight-section-container{
+
+    padding-top: 100px;
+    width:100%;
+    padding-left: 0;
+    padding-right: 0;
+   
+    
+}
+
+.highlight-article-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.highlight-section-text{
+
+    font-weight: Normal;
+    font-size: 40px;
+    color: #0A0826;
+    padding-left: 100px;
+    text-align: center;
+   
+}
+
+.highlight-section-text p{
+
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: normal;
+}
+
+.highlight-section-image{
+
+    padding-left: 69px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+#highlight-img{
+    width: 567px;
+   height: 427px;
+}
+
+ /* highlight Section */
+
+  /* special Section */
+  .special-clips-container{
+
+    padding-left: 0;
+    width:100%;
+
+
+}
+
+.special-clips{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 27px;
+    
+}
+
+ /* special Section */
+
+
+
+  /* more Section */
+  .more-info-container{
+
+    padding-left: 100px;
+    width:100%;
+    padding-top: 100px;
+    
+    
+}
+
+.more-info{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+ /* more Section */
+
+
+  /* footer Section */
+  .footer-container{
+    align-items: center;
+    padding-top: 100px;
+
+}
+ /* footer Section */
+    
+
+
+}
